@@ -20,4 +20,8 @@ models/
 .DS_Store
 
 # Separate repos cloned into the workspace
-WP4/
+.venv/
+logs/
+# per-item outputs stay on the server; commit only aggregate results
+results/**/predictions.npz
+results/smoke*/
